@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Dastone - Admin & Dashboard Template</title>
+    <title>My Temp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="" name="author" />
@@ -21,6 +21,8 @@
     <link href="~/mylayout/assets/css/metisMenu.min.css" rel="stylesheet" type="text/css" />
     <link href="~/mylayout/plugins/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
     <link href="~/mylayout/assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+    
 
 </head>
 
@@ -46,12 +48,14 @@
 
 
                 <li>
-                    <a href="javascript: void(0);"><i data-feather="grid" class="align-self-center menu-icon"></i><span>Apps</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <a href="javascript: void(0);"><i data-feather="grid" class="align-self-center menu-icon"></i><span>All Kit</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
                     <ul class="nav-second-level" aria-expanded="false">
                         <li>
-                            <a href="javascript: void(0);"><i class="ti-control-record"></i>Email <span class="menu-arrow left-has-menu"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <a href="javascript: void(0);"><i class="ti-control-record"></i>Forms <span class="menu-arrow left-has-menu"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+                                <li><a asp-controller="Forms" asp-action="Create">Create</a></li>
+                                <li><a asp-controller="Forms" asp-action="FileUpload">File Upload</a></li>
+                                <li><a asp-controller="Forms" asp-action="Repeater">Clone/Repeater</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Check"><i class="ti-control-record"></i>Check</a></li>
@@ -317,6 +321,10 @@
 
     <!-- App js -->
     <script src="~/mylayout/assets/js/app.js"></script>
+
+
+
+
     @RenderSection("Scripts", required: false)
 
 </body>
