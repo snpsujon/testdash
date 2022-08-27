@@ -19,22 +19,46 @@ namespace testdash.Controllers
             
             return View();
         }
-        [Route("F/Create/{id?}")]
+        
+        [Route("Create")]
         public IActionResult Create()
         {
-            
+            if (Request.Cookies["SesseonTime"] == "Expired" || Request.Cookies["SesseonTime"] == null)
+            {
+                return RedirectToAction("LockScreen", "Home");
+            }
+
+
             return View();
         }
-        [Route("F/File")]
+        [Route("File")]
         public IActionResult FileUpload()
         {
+            if (Request.Cookies["SesseonTime"] == "Expired" || Request.Cookies["SesseonTime"] == null)
+            {
+                return RedirectToAction("LockScreen", "Home");
+            }
             return View();
         }
-        [Route("F/Repeater")]
+        [Route("Repeater")]
         public IActionResult Repeater()
         {
+            if (Request.Cookies["SesseonTime"] == "Expired" || Request.Cookies["SesseonTime"] == null)
+            {
+                return RedirectToAction("LockScreen", "Home");
+            }
             return View();
         }
+        [Route("Wizard")]
+        public IActionResult Wizard()
+        {
+            if (Request.Cookies["SesseonTime"] == "Expired" || Request.Cookies["SesseonTime"] == null)
+            {
+                return RedirectToAction("LockScreen", "Home");
+            }
+            return View();
+        }
+
 
     }
 }

@@ -311,3 +311,8 @@ D:\Project\testdash\testdash\obj\Debug\netcoreapp3.1\testdash.genruntimeconfig.c
 D:\Project\testdash\testdash\obj\Debug\netcoreapp3.1\Razor\Views\Forms\Create.cshtml.g.cs
 D:\Project\testdash\testdash\obj\Debug\netcoreapp3.1\Razor\Views\Forms\FileUpload.cshtml.g.cs
 D:\Project\testdash\testdash\obj\Debug\netcoreapp3.1\Razor\Views\Forms\Repeater.cshtml.g.cs
+D:\snpsujon\testdash\testdash\obj\Debug\netcoreapp3.1\Razor\Views\Forms\Create.cshtml.g.cs
+D:\snpsujon\testdash\testdash\obj\Debug\netcoreapp3.1\Razor\Views\Forms\FileUpload.cshtml.g.cs
+D:\snpsujon\testdash\testdash\obj\Debug\netcoreapp3.1\Razor\Views\Forms\Repeater.cshtml.g.cs
+D:\snpsujon\testdash\testdash\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+D:\snpsujon\testdash\testdash\obj\Debug\netcoreapp3.1\Razor\Views\Forms\Wizard.cshtml.g.cs
